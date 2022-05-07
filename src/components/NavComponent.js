@@ -10,7 +10,7 @@ export default function NavComponent() {
             >
               <i class="fa fa-link pr-0 md:pr-3"></i>
               <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block">
-                Link
+                Github
               </span>
             </a>
           </li>
@@ -21,7 +21,7 @@ export default function NavComponent() {
             >
               <i class="fa fa-link pr-0 md:pr-3"></i>
               <span class="pb-1 md:pb-0 text-xs md:text-base text-gray-600 md:text-gray-400 block md:inline-block">
-                Link
+                LinkedIn
               </span>
             </a>
           </li>
@@ -32,7 +32,7 @@ export default function NavComponent() {
             >
               <i class="fa fa-link pr-0 md:pr-3 text-pink-500"></i>
               <span class="pb-1 md:pb-0 text-xs md:text-base text-white md:font-bold block md:inline-block">
-                Link
+                Contact
               </span>
             </a>
           </li>
