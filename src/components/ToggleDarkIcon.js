@@ -6,7 +6,7 @@ export default function ToggleDarkIcon() {
   return (
     <div
       onClick={() => setToggleDark(!toggleDark)}
-      className="absolute text-pink-500 border-pink-500 top-1 right-1 border-2 rounded-full px-2 flex hover:text-pink-400 hover:border-pink-400 cursor-pointer"
+      className="absolute dark:text-white dark:border-0 top-1 right-1 border-2 rounded-full px-2 flex  hover:border-pink-400 cursor-pointer transition-all duration-200"
     >
       <i
         class="fa fa-lightbulb-o fa-2x sm:fa hover:animate-pulse"
