@@ -1,6 +1,6 @@
 export default function NavComponent() {
   return (
-    <div class="w-full md:w-1/5 bg-gray-900 px-4 text-center fixed bottom-0 md:pt-2 md:top-0 md:left-0 h-17 md:h-screen  md:border-gray-600 z-10">
+    <div class="w-full md:w-1/5 px-4 text-center fixed bottom-0 md:pt-2 md:top-0 md:left-0 h-17 md:h-screen  md:border-gray-600 z-10">
       <div class="md:relative mx-auto lg:px-6">
         <ul class="list-reset flex flex-row md:flex-col text-center md:text-left">
           <li class="flex-1">
