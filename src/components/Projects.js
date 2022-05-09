@@ -1,17 +1,7 @@
-export default function MainContent() {
+export default function Projects() {
   return (
     <div class="w-full md:w-4/5 bg-gray-100">
       <div class="container bg-gray-100 pt-2 px-6">
-        {/* Profile card */}
-        {/*    <!--
-  This component uses @tailwindcss/aspect-ratio
-
-  yarn add @tailwindcss/aspect-ratio
-  npm install @tailwindcss/aspect-ratio
-
-  plugins: [require('@tailwindcss/aspect-ratio')]
---> */}
-
         <div class="max-w-8xl px-4 mx-auto">
           <section class="p-8 bg-gray-100 rounded-lg mx-2">
             <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
