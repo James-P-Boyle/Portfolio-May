@@ -20,9 +20,8 @@ function App() {
       <ToggleContext.Provider value={{ toggleDark, setToggleDark }}>
         <div className={toggleDark ? "dark" : ""}>
           <ToggleDarkIcon />
-
-          <div class="flex md:flex-row-reverse flex-wrap dark:bg-gray-900 h-screen ">
-            <NavComponent />
+          <NavComponent />
+          <div class="flex md:flex-row-reverse flex-wrap bg-gray-100 dark:bg-gray-900 h-screen ">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
