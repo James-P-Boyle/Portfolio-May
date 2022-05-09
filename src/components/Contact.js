@@ -1,10 +1,10 @@
 export default function Contact() {
   return (
     <div className="overflow-hidden w-full md:w-4/5">
-      <div className="px-4 py-20 xl:mt-20">
+      <div className="px-4 py-10 sm:py-20 xl:mt-20">
         <div className="flex flex-col items-center justify-evenly xl:flex-row xl:align-middle">
-          <div className="w-full mb-12 xl:mb-0 xl:px-8 max-w-xl">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight dark:text-white sm:text-4xl sm:leading-none">
+          <div className="w-full mb-2 sm:mb-12 xl:mb-0 xl:px-8 max-w-xl">
+            <h2 className="max-w-lg mb-2 md:mb-6 font-sans text-3xl font-bold tracking-tight dark:text-white sm:text-4xl sm:leading-none">
               Get in Touch with
               <span className="text-teal-accent-400 text-pink-500"> me</span>
             </h2>
