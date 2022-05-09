@@ -13,15 +13,16 @@ import ToggleDarkIcon from "./components/ToggleDarkIcon";
 import { ToggleContext } from "./components/ToggleContext";
 
 function App() {
-  const [toggleDark, setToggleDark] = useState(false);
+  const [toggleDark, setToggleDark] = useState(true);
   console.log(toggleDark);
   return (
     <>
       <ToggleContext.Provider value={{ toggleDark, setToggleDark }}>
         <div className={toggleDark ? "dark" : ""}>
           <ToggleDarkIcon />
-          <NavComponent />
-          <div class="flex md:flex-row-reverse flex-wrap bg-gray-100 dark:bg-gray-900 h-screen ">
+
+          <div class="flex md:flex-row-reverse flex-wrap bg-gray-100 dark:bg-gray-900 w-full">
+            <NavComponent />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />

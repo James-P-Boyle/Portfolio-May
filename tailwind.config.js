@@ -2,7 +2,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
 
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "food-project": "url('../public/images/FoodProject.png')",
+      },
+    },
   },
   plugins: [],
   darkMode: "class",

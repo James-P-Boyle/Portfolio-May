@@ -1,42 +1,33 @@
 export default function Projects() {
   return (
-    <div class="w-full md:w-4/5 bg-gray-100">
-      <div class="container bg-gray-100 pt-2 px-6">
-        <div class="max-w-8xl px-4 mx-auto">
-          <section class="p-8 bg-gray-100 rounded-lg mx-2">
-            <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
-              <div class="relative">
-                <div class="aspect-w-1 aspect-h-1">
-                  <img
-                    src="https://www.hyperui.dev/photos/man-5.jpeg"
-                    alt=""
-                    class="object-cover rounded-lg"
-                  />
-                </div>
+    <div className="w-full md:w-4/5 h-screen">
+      <section class="bg-gray-100 dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
+        <div class="bg-white dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
+          <div class="lg:w-1/2"></div>
 
-                <div class="absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4">
-                  <span class="inline-block w-12 h-10 bg-gray-100 rounded-lg"></span>
-                </div>
-              </div>
+          <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
+            <h2 class="text-2xl font-bold text-gray-800 dark:text-white md:text-3xl">
+              Build Your New{" "}
+              <span class="text-blue-600 dark:text-blue-400">Idea</span>
+            </h2>
+            <p class="mt-4 text-gray-600 dark:text-gray-400">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              modi reprehenderit vitae exercitationem aliquid dolores ullam
+              temporibus enim expedita aperiam mollitia iure consectetur dicta
+              tenetur, porro consequuntur saepe accusantium consequatur.
+            </p>
 
-              <blockquote class="sm:col-span-2">
-                <p class="text-xl font-medium sm:text-2xl">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                  perspiciatis cumque neque ut nobis excepturi, quasi iure
-                  quisquam autem alias.
-                </p>
-
-                <cite class="inline-flex items-center mt-8 not-italic">
-                  <span class="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
-                  <p class="text-sm text-gray-500 uppercase sm:ml-3">
-                    <strong>James Boyle</strong>, Fullstack Developer
-                  </p>
-                </cite>
-              </blockquote>
+            <div class="mt-8">
+              <a
+                href="#"
+                class="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700"
+              >
+                Start Now
+              </a>
             </div>
-          </section>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
