@@ -1,7 +1,6 @@
 const projectsModel = require("../models/projects");
 
 const getProjects = async (req, res, next) => {
-  console.log("working");
   try {
     const projects = await projectsModel.find({});
     res.json(projects);
