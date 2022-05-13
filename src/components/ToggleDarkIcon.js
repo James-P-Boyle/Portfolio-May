@@ -9,7 +9,7 @@ export default function ToggleDarkIcon() {
       className="absolute dark:text-white dark:border-0 top-1 right-1 border-2 rounded-full px-2 flex  hover:border-pink-400 cursor-pointer transition-all duration-200"
     >
       <i
-        class="fa fa-lightbulb-o fa-2x sm:fa hover:animate-pulse"
+        className="fa fa-lightbulb-o fa-2x sm:fa hover:animate-pulse"
         aria-hidden="true"
       ></i>
     </div>

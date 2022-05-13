@@ -9,19 +9,20 @@ import About from "./components/About";
 import TechStack from "./components/TechStack";
 import Contact from "./components/Contact";
 import ToggleDarkIcon from "./components/ToggleDarkIcon";
+import ComposeProject from "./components/ComposeProject";
 //CONTEXT
 import { ToggleContext } from "./components/ToggleContext";
 
 function App() {
   const [toggleDark, setToggleDark] = useState(true);
-  console.log(toggleDark);
+
   return (
     <>
       <ToggleContext.Provider value={{ toggleDark, setToggleDark }}>
         <div className={toggleDark ? "dark" : ""}>
           <ToggleDarkIcon />
 
-          <div class="flex md:flex-row-reverse flex-wrap bg-gray-100 dark:bg-gray-900 w-full">
+          <div className="flex md:flex-row-reverse flex-wrap bg-gray-100 dark:bg-gray-900 w-full">
             <NavComponent />
             <Routes>
               <Route path="/" element={<Home />} />
@@ -29,6 +30,7 @@ function App() {
               <Route path="/techstack" element={<TechStack />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/compose" element={<ComposeProject />} />
             </Routes>
           </div>
         </div>

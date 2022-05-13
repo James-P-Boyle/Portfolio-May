@@ -1,7 +1,7 @@
 const { Schema, model } = require("mongoose");
 
 const projectsSchema = new Schema({
-  title: { type: String, require: true },
+  title: { type: String, require: true, default: "App" },
   tech: [{ type: String, require: true }],
   description: { type: String, require: true },
   imageUrl: { type: String, require: false },
