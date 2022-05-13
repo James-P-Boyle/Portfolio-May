@@ -1,5 +1,4 @@
 export default function ProjectCard({ title, description, imageUrl, tech }) {
-  console.log(imageUrl);
   return (
     <div className="my-5">
       <section className="bg-gray-100 dark:bg-gray-900 lg:py-3 lg:flex lg:justify-center">
